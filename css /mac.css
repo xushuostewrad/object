@@ -1,0 +1,142 @@
+#wrap{
+	height: 644px;
+	background: url(../img/i.jpg) no-repeat center top;
+	background-size: 100% 100%;	
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.nav{
+	height:44px;
+	background: rgba(0,0,0,0.8);
+}
+.nav-c{
+	height:44px;
+	
+}
+.nav-c ul li {
+	float:left ;
+	line-height: 44px;
+	margin: 0 43px;
+
+}
+.nav-c .logo{
+	width: 17px;
+	height:20px;
+	margin-left:12px ;
+	background: url(../img/images/img3_03.jpg) no-repeat;
+	margin-top: 12px;
+	
+}
+
+.nav-c .logo a{
+	display: block;
+	width: 17px;
+	height:20px;
+	text-indent: -9999px;
+	
+}
+
+.nav-c ul li a{
+	color: #FFFFFF;
+}
+.nav-c .bao{
+	margin-right:10px;	
+}
+/* 标题*/
+.apple-title{
+	height:61px;
+	background: rgba(255,255,255,0.8);
+}
+.apple-tc{
+	height: 61px;
+	
+}
+.apple-tc h2{
+	font-size: 19px;
+	height:61px;
+	line-height: 61px;
+	float: left;
+	color: #3d3835;
+}
+
+.title-right{
+	 float: right;  
+	height: 61px;
+	line-height: 61px;
+}
+.title-right a{
+	color: #171615;	
+	margin: 0 17px;
+}
+.title-right a:hover{
+	font-size: 12px;
+	color:orange;
+}
+.title-right .current{
+	color: red;	
+}
+.account{
+	height: 540px;
+	
+}
+.account-t{	
+	height: 540px;	
+}
+.account-t h2{
+	font-size: 38px;
+	text-align: center;
+	color:#FFFFFF;
+	margin-top: 127px;
+}
+.account-t p{
+	display:block;
+	ont-size: 23px;
+	text-align: center;
+	color:#FFFFFF;
+	margin-top:18px;
+}
+.login{
+	color: #FFFFFF;
+	font-size: 16px;
+	text-align: center;
+}
+.work{
+	position:relative;
+	text-align: center;
+}
+.login .hot{
+	display: block;
+     width: 338px;
+	height: 44px;
+	border:1px solid #0070c9;
+	border-radius:5px;
+	margin:44px 333px;
+	background:#FFFFFF url(../img/images/img4_03.jpg) no-repeat  304px 10px;
+	position: absolute;
+
+	
+}
+.login .cool{
+	width:16px;
+	height:16px;
+	vertical-align: middle;
+	
+}
+.account-t a{
+	display: block;
+	font-size: 16px;
+	color:#FFFFFF;
+	text-align: center;
+	margin-top:215px;
+}
+@media only screen and (max-width: 800px) {
+	.container{
+		width: 600px;
+	}
+.nav{
+	height:22px;
+	background: rgba(22,22,11,0.5);
+}
+}
