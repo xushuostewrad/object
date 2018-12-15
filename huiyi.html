@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>回忆的开始</title>
+		<style type="text/css">
+		body,html{
+			height: 100%;
+			background: url(images/img13.jpg)no-repeat;
+			background-size:cover;
+		}	
+			div{
+					height:250px;
+				width:300px ;
+				position:fixed;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				margin: auto;
+				transform-style:preserve-3d;
+				transform: rotateX(0deg) rotateY(0deg);
+				animation: go 30s linear infinite;
+			}
+			div img{
+				height:220px;
+				width:300px ;
+				position:absolute;
+				top: 0;
+				left: 0;
+			}
+			div img:nth-child(1){
+				transform: translateZ(800px);				
+			}
+			div img:nth-child(2){
+				transform:rotateY(30deg) translateZ(800px);				
+			}
+			div img:nth-child(3){
+				transform:rotateY(60deg) translateZ(800px);				
+			}
+			div img:nth-child(4){
+				transform:rotateY(90deg) translateZ(800px);				
+			}
+			div img:nth-child(5){
+				transform:rotateY(120deg) translateZ(800px);				
+			}
+			div img:nth-child(6){
+				transform:rotateY(150deg) translateZ(800px);				
+			}
+			div img:nth-child(7){
+				transform:rotateY(180deg) translateZ(800px);				
+			}
+			div img:nth-child(8){
+				transform:rotateY(210deg) translateZ(800px);				
+			}
+			div img:nth-child(9){
+				transform:rotateY(240deg) translateZ(800px);				
+			}
+			div img:nth-child(10){
+				transform:rotateY(270deg) translateZ(800px);				
+			}
+			div img:nth-child(11){
+				transform:rotateY(300deg) translateZ(800px);				
+			}
+			div img:nth-child(12){
+				transform:rotateY(330deg) translateZ(800px);				
+			}
+			.box01{
+				position: fixed;
+				bottom: 20px;
+				right:10px;
+			}
+			@keyframes go{
+				0{transform: rotateX(0deg) rotateY(0deg);}
+				25%{transform:rotateX(-10deg) rotateY(90deg);}
+				50%{transform:rotateX(0deg) rotateY(180deg);}
+				75%{transform:rotateX(10deg) rotateY(270deg);}
+				100%{transform:rotateX(0deg) rotateY(360deg);}
+			
+			}
+		</style>
+	
+	</head>
+	<body>
+		<div>
+			<img src="images/img1.jpg" />
+			<img src="images/img2.jpg" />
+			<img src="images/img3.jpg" />
+			<img src="images/img4.jpg" />
+			<img src="images/img5.jpg" />
+			<img src="images/img6.jpg" />
+		     <img src="images/img7.jpg" />
+		     <img src="images/img8.jpg" />
+		     <img src="images/img9.jpg" />
+		     <img src="images/img10.jpg" />
+		     <img src="images/img11.jpg" />
+		     <img src="images/img12.jpg" />
+		</div>
+	</body>
+	<audio src="audio/Two Steps From Hell - Victory (Instrumental).mp3"autoplay></audio>
+	<img src="images/img2/a.gif" class="box01" />
+</html>
